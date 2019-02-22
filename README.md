@@ -9,6 +9,6 @@
  - [Huajh Awesome Latex CV](https://github.com/huajh/awesome-latex-cv)  
  - [YAAC: Another Awesome CV](https://github.com/darwiin/yaac-another-awesome-cv)  
   
-![resume](res/Resume-ENG-.jpg)  
+![resume](res/Resume-ENG.jpg)  
   
 <strong>Rodrigo Leite - Software Engineer</strong>
