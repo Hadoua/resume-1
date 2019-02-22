@@ -1,0 +1,35 @@
+% textsc - Deixa as letras em maisúculo
+% textbf - Deixa as letras em negrito
+
+% Main file
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\name{Rodrigo}{Leite da Silva}
+\tagline{Software Developer}
+\photo{2.5cm}{avatar}
+\socialinfo{
+    \homepage{rodrigoleite89.github.io}
+	\linkedin{rodrigoleite89}
+	\github{rodrigoleite89} \\
+    \stackoverflow{https://stackoverflow.com/users/8047904/rodrigoleite89} \\
+	\smartphone{TIM - (83) 998819364, (83) 996500112}
+	\email{rodrigoleite.dev@gmail.com}\\
+	\address{Brazil, Campina Grande/PB - CEP: 58401-040}\\
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{}}
+		{\textsc{Rodrigo Leite - CV}}
+		{\thepage}
+
+	\input{section_summary}                 % Section Summary
+	\input{section_experience_short}		% Section experience
+	\input{section_education.tex}           % Section Education
+	\input{section_skills.tex}              % Section Skills
+	\input{section_langues}					% Section langues
+	%\input{section_interets}				% Section intérêts
+
+\end{document}
